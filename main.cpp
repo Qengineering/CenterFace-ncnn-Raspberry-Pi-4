@@ -57,7 +57,7 @@ int main(int argc, char** argv) {
             }
 #endif // SHOW_LANDMARKS
         }
-        cv::imwrite("selfie_result.jpg", frame); //save the result
+//        cv::imwrite("selfie_result.jpg", frame); //save the result
 
         Tend = chrono::steady_clock::now();
         //calculate frame rate
